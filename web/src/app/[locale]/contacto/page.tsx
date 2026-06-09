@@ -68,7 +68,7 @@ export default function ContactPage({ params: { locale } }: { params: { locale: 
                     rel="noopener noreferrer"
                     className="font-medium text-forest-deep transition-colors hover:text-forest"
                   >
-                    +591 69896583
+                    {siteConfig.phones[0]}
                   </a>
                 </InfoRow>
 

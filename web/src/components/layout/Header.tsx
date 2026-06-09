@@ -66,7 +66,7 @@ export function Header() {
           <Logo
             variant={transparent ? 'onDark' : 'color'}
             priority
-            className="h-8 sm:h-9"
+            className="h-10 sm:h-12"
           />
 
           {/* Navegación desktop */}
@@ -141,7 +141,7 @@ export function Header() {
         aria-hidden={!open}
       >
         <div className="container-px flex h-16 items-center justify-between">
-          <Logo variant="color" className="h-8" />
+          <Logo variant="color" className="h-10" />
           <button
             type="button"
             onClick={() => setOpen(false)}

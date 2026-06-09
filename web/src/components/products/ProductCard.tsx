@@ -54,7 +54,15 @@ export function ProductCard({
         <p className="mt-1.5 flex-1 text-[0.95rem] leading-relaxed text-mute">
           {pick(product.tagline, locale)}
         </p>
-        <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-forest-deep transition-colors group-hover:text-forest">
+        {product.price !== undefined ? (
+          <p className="mt-3 text-base font-bold text-forest-deep">
+            {product.price % 1 === 0
+              ? `$us ${product.price}`
+              : `$us ${product.price.toString().replace('.', ',')}`}
+            <span className="ml-0.5 text-xs font-medium text-mute">/L</span>
+          </p>
+        ) : null}
+        <span className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-forest-deep transition-colors group-hover:text-forest">
           {viewMoreLabel}
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" aria-hidden />
         </span>

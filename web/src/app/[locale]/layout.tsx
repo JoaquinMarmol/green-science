@@ -82,7 +82,7 @@ export default async function LocaleLayout({
     logo: `${siteConfig.url}/logo-color.png`,
     image: `${siteConfig.url}/og-image.jpg`,
     email: siteConfig.email,
-    telephone: '+59169896583',
+    telephone: `+${siteConfig.whatsapp}`,
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Parque Industrial de Montero',

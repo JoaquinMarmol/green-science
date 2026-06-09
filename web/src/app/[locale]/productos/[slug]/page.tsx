@@ -152,6 +152,13 @@ export default function ProductDetailPage({
               <FactRow label={t('group')} value={t('groupValue')} />
               <FactRow label={t('type')} value={pick(product.type, locale)} />
               <FactRow label={t('doseTitle')} value={pick(product.dose, locale)} />
+              {product.price !== undefined ? (
+                <FactRow
+                  label={t('price')}
+                  value={`$us ${product.price % 1 === 0 ? product.price : product.price.toString().replace('.', ',')} / L`}
+                  highlight
+                />
+              ) : null}
               {product.registration ? (
                 <FactRow label={t('registration')} value={product.registration} />
               ) : null}
@@ -283,11 +290,13 @@ export default function ProductDetailPage({
   );
 }
 
-function FactRow({ label, value }: { label: string; value: string }) {
+function FactRow({ label, value, highlight }: { label: string; value: string; highlight?: boolean }) {
   return (
     <div className="flex items-start justify-between gap-4 px-4 py-3">
       <dt className="text-sm text-mute">{label}</dt>
-      <dd className="text-right text-sm font-semibold text-ink">{value}</dd>
+      <dd className={highlight ? 'text-right text-sm font-bold text-forest-deep' : 'text-right text-sm font-semibold text-ink'}>
+        {value}
+      </dd>
     </div>
   );
 }

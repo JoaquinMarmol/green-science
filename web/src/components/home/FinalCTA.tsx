@@ -10,7 +10,7 @@ export function FinalCTA() {
   const t = useTranslations('cta');
 
   return (
-    <Container className="py-16 sm:py-20 lg:py-24">
+    <Container className="py-16 sm:pb-16">
       <FadeIn>
         <div className="relative overflow-hidden rounded-3xl bg-brand px-6 py-14 text-center shadow-glow sm:px-12 lg:py-20">
           {/* Símbolo de marca de fondo */}

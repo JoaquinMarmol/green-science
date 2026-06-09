@@ -21,7 +21,7 @@ async function trimTo(input, output, { background, threshold = 18 }) {
 await mkdir(fileURLToPath(PUBLIC), { recursive: true });
 
 // Logo full color sobre fondo blanco -> recorte ajustado al contenido.
-await trimTo('isotipo.jpeg', 'logo-color.png', { background: '#ffffff' });
+await trimTo('isotiponegro.jpeg', 'logo-color.png', { background: '#000000' });
 // Logo full sobre fondo negro -> para footer/fondos oscuros.
 await trimTo('isotiponegro.jpeg', 'logo-dark.png', { background: '#000000' });
 // Solo símbolo (ADN + hoja) sobre negro -> acentos en fondos oscuros (blend-screen).

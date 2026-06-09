@@ -4,8 +4,8 @@ import { siteConfig } from '@/lib/site';
 import { cn } from '@/lib/cn';
 
 const SOURCES = {
-  color: { src: '/logo-color.png', w: 922, h: 383 },
-  onDark: { src: '/logo-on-dark.png', w: 1063, h: 442 },
+  color: { src: '/isotipo-light.png', w: 1200, h: 507 },
+  onDark: { src: '/isotipo-final.png', w: 1200, h: 507 },
 } as const;
 
 /** Logo enlazado al home. variant="onDark" (fondo transparente) para fondos oscuros. */
