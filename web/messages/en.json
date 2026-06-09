@@ -1,0 +1,248 @@
+{
+  "site": {
+    "name": "Green Science",
+    "tagline": "Living Soil Biotechnology"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "common": {
+    "viewProducts": "View products",
+    "contact": "Contact",
+    "viewMore": "View more",
+    "viewAllProducts": "View all products",
+    "whatsapp": "WhatsApp",
+    "writeWhatsapp": "Message on WhatsApp",
+    "backToProducts": "Back to products",
+    "featured": "Featured",
+    "skipToContent": "Skip to content",
+    "language": "Language"
+  },
+  "hero": {
+    "eyebrow": "Microbial organic biological inputs",
+    "titleLead": "Living biotechnology for",
+    "titleHighlight": "healthy soils",
+    "titleTail": "and sustainable farming",
+    "subtitle": "Beneficial microorganisms that feed the soil, stimulate your crops and control pests and diseases. 100% biological, residue-free and export-ready.",
+    "ctaPrimary": "View products",
+    "ctaSecondary": "Contact",
+    "stat1Value": "100%",
+    "stat1Label": "Biological",
+    "stat2Value": "8",
+    "stat2Label": "Bio-inputs",
+    "stat3Value": "0",
+    "stat3Label": "Toxic residues"
+  },
+  "pillars": {
+    "eyebrow": "Why choose us",
+    "title": "Microbial technology with real benefits",
+    "items": {
+      "organic": {
+        "title": "Microbial organic origin",
+        "desc": "Formulated with living beneficial microorganisms, not synthetic chemicals."
+      },
+      "biological": {
+        "title": "100% biological",
+        "desc": "Pest and disease control with no toxic residues on the crop."
+      },
+      "soil": {
+        "title": "Soil improvement",
+        "desc": "Restores beneficial microflora and physical, chemical and biological fertility."
+      },
+      "export": {
+        "title": "Export-ready",
+        "desc": "Clean, residue-free production aimed at export markets."
+      }
+    }
+  },
+  "categories": {
+    "eyebrow": "Product lines",
+    "title": "A biological solution for every need",
+    "subtitle": "Six lines of bio-inputs to feed, stimulate and protect your crops.",
+    "explore": "Explore",
+    "items": {
+      "bioestimulante": {
+        "label": "Biostimulants",
+        "desc": "Growth, flowering and root development."
+      },
+      "biofertilizante": {
+        "label": "Biofertilizers",
+        "desc": "More yield, vigor and fertile soil."
+      },
+      "bioinsecticida": {
+        "label": "Bioinsecticides",
+        "desc": "Biological control of insect pests."
+      },
+      "biofungicida": {
+        "label": "Biofungicides",
+        "desc": "Preventive protection against fungi."
+      },
+      "tratamiento-semillas": {
+        "label": "Seed treatment",
+        "desc": "Uniform emergence and strong seedlings."
+      },
+      "pecuario": {
+        "label": "Livestock line",
+        "desc": "Probiotics and biological animal improvement."
+      }
+    }
+  },
+  "featured": {
+    "eyebrow": "Featured products",
+    "title": "Our key bio-inputs",
+    "subtitle": "Grower favorites, ready for your next season.",
+    "viewAll": "View all products"
+  },
+  "why": {
+    "eyebrow": "Living Soil Biotechnology",
+    "title": "Living soil, strong crops",
+    "lead": "At Green Science we develop bio-inputs from living beneficial microorganisms. Our technology brings the soil back to life: it feeds it, balances its microflora and activates the plant’s natural defenses.",
+    "points": {
+      "micro": {
+        "title": "Beneficial microorganisms",
+        "desc": "Selected bacteria and fungi that work in symbiosis with the plant."
+      },
+      "fixation": {
+        "title": "Nitrogen fixation",
+        "desc": "They harness atmospheric nitrogen and solubilize soil nutrients."
+      },
+      "control": {
+        "title": "Biological control",
+        "desc": "They displace pathogens and pests without leaving chemical residues."
+      },
+      "sustainable": {
+        "title": "Sustainable farming",
+        "desc": "Clean production, fertile soil and yield season after season."
+      }
+    },
+    "cta": "Learn about Green Science"
+  },
+  "crops": {
+    "eyebrow": "Crops",
+    "title": "Designed for your crop",
+    "subtitle": "Solutions proven in the main crops of Bolivia and the region."
+  },
+  "cta": {
+    "title": "Ready for a more living soil?",
+    "subtitle": "Let’s talk about your crop and build a biological plan tailored to you.",
+    "primary": "Contact us now",
+    "whatsapp": "Message on WhatsApp",
+    "whatsappMessage": "Hello Green Science, I’d like more information about your bio-inputs."
+  },
+  "footer": {
+    "tagline": "Microbial organic agricultural bio-inputs for living soils and sustainable farming.",
+    "navTitle": "Navigation",
+    "productsTitle": "Products",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved.",
+    "senasag": "Biological products of microbial organic origin. BIO-MULUSK holds SENASAG Reg. No. 07-16428.",
+    "emergencyLabel": "Poisoning (Bolivia)"
+  },
+  "productsPage": {
+    "eyebrow": "Catalog",
+    "title": "Products",
+    "subtitle": "Bio-inputs of microbial organic origin. Filter by category according to what your crop needs.",
+    "filterAll": "All",
+    "results": "{count, plural, one {# product} other {# products}}",
+    "empty": "No products in this category."
+  },
+  "productDetail": {
+    "back": "Back to products",
+    "group": "Biological group",
+    "groupValue": "Microbial organic origin",
+    "type": "Type",
+    "registration": "SENASAG registration",
+    "descriptionTitle": "Description",
+    "compositionTitle": "Composition",
+    "componentCol": "Component",
+    "valueCol": "Concentration",
+    "benefitsTitle": "Benefits",
+    "cropsTitle": "Crops / Application",
+    "usageTitle": "How to use",
+    "doseTitle": "Dose",
+    "compatibilityTitle": "Compatibility",
+    "compatibilityText": "Compatible with most fertilizers and pesticides on the local market and with solubilizing bacteria. Run a compatibility test before mixing.",
+    "storageTitle": "Storage",
+    "storageText": "Keep in the original closed container, in a cool, ventilated and shaded place, out of the reach of children.",
+    "emergencyTitle": "Emergencies",
+    "emergencyText": "Poisoning inquiries (Bolivia): Hospital Japonés 800-10-6966.",
+    "ctaTitle": "Interested in {product}?",
+    "ctaText": "Message us and an advisor will help you with the dose and application plan for your crop.",
+    "ctaButton": "Ask about this product",
+    "whatsappMessage": "Hello Green Science, I’d like information about {product}.",
+    "relatedTitle": "Other products"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Living Soil Biotechnology",
+    "intro": "Green Science is a Bolivian company dedicated to the development, formulation and production of microbial organic agricultural bio-inputs. From Montero, Santa Cruz, we bring beneficial-microorganism technology to the field to build living soils and a more sustainable agriculture.",
+    "missionTitle": "Our mission",
+    "missionText": "To offer effective biological alternatives to chemical inputs, improving soil health and farmer profitability without leaving toxic residues.",
+    "approachTitle": "Our approach",
+    "approachText": "We work with consortia of beneficial bacteria and fungi that feed the plant, fix nitrogen, solubilize nutrients and control pests and diseases biologically. That is what we call Living Soil Biotechnology: bringing the soil back to life.",
+    "whatTitle": "What are microbial organic bio-inputs?",
+    "whatText": "They are products formulated from selected living microorganisms (bacteria, fungi and actinomycetes) that perform specific functions in the soil and the plant: they stimulate growth, improve nutrition and provide biological control, in balance with the ecosystem.",
+    "benefitsTitle": "Benefits for your production",
+    "benefits": {
+      "yield": "Higher crop yield and vigor",
+      "soil": "More fertile, biologically active soil",
+      "control": "Biological control of pests and diseases",
+      "residue": "No chemical residues, export-ready",
+      "compat": "Compatible with most inputs on the local market"
+    },
+    "locationTitle": "Where we are",
+    "locationText": "Montero Industrial Park — Santa Cruz, Bolivia.",
+    "ctaTitle": "Let’s talk about your crop",
+    "ctaButton": "Contact"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let’s talk about your crop",
+    "subtitle": "Tell us what you need and we’ll advise you on the bio-input, dose and application plan.",
+    "formTitle": "Send us a message",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "you@email.com",
+    "phone": "Phone",
+    "phonePlaceholder": "(+591) ...",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your crop and what you need...",
+    "submit": "Send via WhatsApp",
+    "formNote": "On submit, WhatsApp opens with your message ready to confirm.",
+    "required": "Please complete this field",
+    "infoTitle": "Contact details",
+    "addressLabel": "Address",
+    "phoneLabel": "Phones",
+    "emailLabel": "Email",
+    "whatsappLabel": "WhatsApp",
+    "hoursLabel": "Hours",
+    "hours": "Mon to Fri, 8:00–18:00",
+    "mapTitle": "How to get there",
+    "emergencyLabel": "Poisoning (Bolivia)",
+    "whatsappMessage": "Hello Green Science, I’d like more information about your bio-inputs."
+  },
+  "metadata": {
+    "home": {
+      "title": "Green Science — Agricultural bio-inputs | Living Soil Biotechnology",
+      "description": "Microbial organic bio-inputs: biofertilizers, biostimulants, bioinsecticides and biofungicides. 100% biological, residue-free. Montero, Santa Cruz, Bolivia."
+    },
+    "products": {
+      "title": "Products",
+      "description": "Green Science bio-input catalog: biostimulants, biofertilizers, bioinsecticides, biofungicides, seed treatment and livestock line."
+    },
+    "about": {
+      "title": "About",
+      "description": "Green Science: living-soil biotechnology. Microbial organic bio-inputs from Montero, Santa Cruz, Bolivia."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Contact Green Science in Montero, Santa Cruz, Bolivia. Phones, WhatsApp and advice on bio-inputs."
+    }
+  }
+}

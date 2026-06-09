@@ -1,0 +1,248 @@
+{
+  "site": {
+    "name": "Green Science",
+    "tagline": "Living Soil Biotechnology"
+  },
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "common": {
+    "viewProducts": "Ver productos",
+    "contact": "Contactar",
+    "viewMore": "Ver más",
+    "viewAllProducts": "Ver todos los productos",
+    "whatsapp": "WhatsApp",
+    "writeWhatsapp": "Escribir por WhatsApp",
+    "backToProducts": "Volver a productos",
+    "featured": "Destacado",
+    "skipToContent": "Saltar al contenido",
+    "language": "Idioma"
+  },
+  "hero": {
+    "eyebrow": "Bioinsumos de origen orgánico microbiano",
+    "titleLead": "Biotecnología viva para",
+    "titleHighlight": "suelos sanos",
+    "titleTail": "y agricultura sostenible",
+    "subtitle": "Microorganismos benéficos que nutren el suelo, estimulan tus cultivos y controlan plagas y enfermedades. 100% biológico, sin residuos y apto para exportación.",
+    "ctaPrimary": "Ver productos",
+    "ctaSecondary": "Contactar",
+    "stat1Value": "100%",
+    "stat1Label": "Biológico",
+    "stat2Value": "8",
+    "stat2Label": "Bioinsumos",
+    "stat3Value": "0",
+    "stat3Label": "Residuos tóxicos"
+  },
+  "pillars": {
+    "eyebrow": "Por qué elegirnos",
+    "title": "Tecnología microbiana con beneficios reales",
+    "items": {
+      "organic": {
+        "title": "Origen orgánico microbiano",
+        "desc": "Formulados con microorganismos benéficos vivos, no con químicos de síntesis."
+      },
+      "biological": {
+        "title": "100% biológico",
+        "desc": "Control de plagas y enfermedades sin residuos tóxicos en el cultivo."
+      },
+      "soil": {
+        "title": "Mejora del suelo",
+        "desc": "Recupera la microflora benéfica y la fertilidad física, química y biológica."
+      },
+      "export": {
+        "title": "Apto para exportación",
+        "desc": "Producción limpia y sin residuos, orientada a mercados de exportación."
+      }
+    }
+  },
+  "categories": {
+    "eyebrow": "Líneas de producto",
+    "title": "Una solución biológica para cada necesidad",
+    "subtitle": "Seis líneas de bioinsumos para nutrir, estimular y proteger tus cultivos.",
+    "explore": "Explorar",
+    "items": {
+      "bioestimulante": {
+        "label": "Bioestimulantes",
+        "desc": "Crecimiento, floración y desarrollo radicular."
+      },
+      "biofertilizante": {
+        "label": "Biofertilizantes",
+        "desc": "Más rendimiento, vigor y suelo fértil."
+      },
+      "bioinsecticida": {
+        "label": "Bioinsecticidas",
+        "desc": "Control biológico de plagas insectiles."
+      },
+      "biofungicida": {
+        "label": "Biofungicidas",
+        "desc": "Protección preventiva contra hongos."
+      },
+      "tratamiento-semillas": {
+        "label": "Tratamiento de semillas",
+        "desc": "Emergencia uniforme y plántulas fuertes."
+      },
+      "pecuario": {
+        "label": "Línea pecuaria",
+        "desc": "Probióticos y mejora biológica animal."
+      }
+    }
+  },
+  "featured": {
+    "eyebrow": "Productos destacados",
+    "title": "Nuestros bioinsumos clave",
+    "subtitle": "Los favoritos del agricultor, listos para tu próxima campaña.",
+    "viewAll": "Ver todos los productos"
+  },
+  "why": {
+    "eyebrow": "Living Soil Biotechnology",
+    "title": "Suelo vivo, cultivos fuertes",
+    "lead": "En Green Science desarrollamos bioinsumos a partir de microorganismos benéficos vivos. Nuestra tecnología devuelve la vida al suelo: nutre, equilibra su microflora y activa las defensas naturales de la planta.",
+    "points": {
+      "micro": {
+        "title": "Microorganismos benéficos",
+        "desc": "Bacterias y hongos seleccionados que trabajan en simbiosis con la planta."
+      },
+      "fixation": {
+        "title": "Fijación de nitrógeno",
+        "desc": "Aprovechan el nitrógeno atmosférico y solubilizan nutrientes del suelo."
+      },
+      "control": {
+        "title": "Control biológico",
+        "desc": "Desplazan patógenos y plagas sin dejar residuos químicos."
+      },
+      "sustainable": {
+        "title": "Agricultura sostenible",
+        "desc": "Producción limpia, suelo fértil y rendimiento campaña tras campaña."
+      }
+    },
+    "cta": "Conocé Green Science"
+  },
+  "crops": {
+    "eyebrow": "Cultivos",
+    "title": "Pensados para tu cultivo",
+    "subtitle": "Soluciones probadas en los principales cultivos de Bolivia y la región."
+  },
+  "cta": {
+    "title": "¿Listo para un suelo más vivo?",
+    "subtitle": "Conversemos sobre tu cultivo y armemos un plan biológico a tu medida.",
+    "primary": "Contactar ahora",
+    "whatsapp": "Escribir por WhatsApp",
+    "whatsappMessage": "Hola Green Science, quiero más información sobre sus bioinsumos."
+  },
+  "footer": {
+    "tagline": "Bioinsumos agrícolas de origen orgánico microbiano para suelos vivos y agricultura sostenible.",
+    "navTitle": "Navegación",
+    "productsTitle": "Productos",
+    "contactTitle": "Contacto",
+    "rights": "Todos los derechos reservados.",
+    "senasag": "Productos biológicos de origen orgánico microbiano. BIO-MULUSK cuenta con Reg. SENASAG N° 07-16428.",
+    "emergencyLabel": "Intoxicaciones (Bolivia)"
+  },
+  "productsPage": {
+    "eyebrow": "Catálogo",
+    "title": "Productos",
+    "subtitle": "Bioinsumos de origen orgánico microbiano. Filtrá por categoría según lo que necesite tu cultivo.",
+    "filterAll": "Todos",
+    "results": "{count, plural, one {# producto} other {# productos}}",
+    "empty": "No hay productos en esta categoría."
+  },
+  "productDetail": {
+    "back": "Volver a productos",
+    "group": "Grupo biológico",
+    "groupValue": "Origen orgánico microbiano",
+    "type": "Tipo",
+    "registration": "Registro SENASAG",
+    "descriptionTitle": "Descripción",
+    "compositionTitle": "Composición",
+    "componentCol": "Componente",
+    "valueCol": "Concentración",
+    "benefitsTitle": "Beneficios",
+    "cropsTitle": "Cultivos / Aplicación",
+    "usageTitle": "Modo de uso",
+    "doseTitle": "Dosis",
+    "compatibilityTitle": "Compatibilidad",
+    "compatibilityText": "Compatible con la mayoría de abonos y plaguicidas del mercado local y con bacterias solubilizadoras. Realizar una prueba previa de compatibilidad antes de mezclar.",
+    "storageTitle": "Almacenamiento",
+    "storageText": "Conservar en el envase original cerrado, en lugar fresco, ventilado y bajo sombra, fuera del alcance de los niños.",
+    "emergencyTitle": "Emergencias",
+    "emergencyText": "Consultas por intoxicaciones (Bolivia): Hospital Japonés 800-10-6966.",
+    "ctaTitle": "¿Te interesa {product}?",
+    "ctaText": "Escribinos y un asesor te ayuda con la dosis y el plan de aplicación para tu cultivo.",
+    "ctaButton": "Consultar por este producto",
+    "whatsappMessage": "Hola Green Science, quiero información sobre {product}.",
+    "relatedTitle": "Otros productos"
+  },
+  "about": {
+    "eyebrow": "Nosotros",
+    "title": "Living Soil Biotechnology",
+    "intro": "Green Science es una empresa boliviana dedicada al desarrollo, formulación y producción de bioinsumos agrícolas de origen orgánico microbiano. Desde Montero, Santa Cruz, llevamos tecnología de microorganismos benéficos al campo para construir suelos vivos y una agricultura más sostenible.",
+    "missionTitle": "Nuestra misión",
+    "missionText": "Ofrecer alternativas biológicas eficaces a los insumos químicos, mejorando la salud del suelo y la rentabilidad del agricultor sin dejar residuos tóxicos.",
+    "approachTitle": "Nuestro enfoque",
+    "approachText": "Trabajamos con consorcios de bacterias y hongos benéficos que nutren la planta, fijan nitrógeno, solubilizan nutrientes y controlan plagas y enfermedades de forma biológica. Es lo que llamamos Living Soil Biotechnology: devolverle la vida al suelo.",
+    "whatTitle": "¿Qué son los bioinsumos de origen orgánico microbiano?",
+    "whatText": "Son productos formulados a base de microorganismos vivos seleccionados (bacterias, hongos y actinomicetos) que cumplen funciones específicas en el suelo y la planta: estimulan el crecimiento, mejoran la nutrición y ejercen control biológico, en equilibrio con el ecosistema.",
+    "benefitsTitle": "Beneficios para tu producción",
+    "benefits": {
+      "yield": "Mayor rendimiento y vigor del cultivo",
+      "soil": "Suelo más fértil y biológicamente activo",
+      "control": "Control biológico de plagas y enfermedades",
+      "residue": "Sin residuos químicos, apto para exportación",
+      "compat": "Compatible con la mayoría de insumos del mercado local"
+    },
+    "locationTitle": "Dónde estamos",
+    "locationText": "Parque Industrial de Montero — Santa Cruz, Bolivia.",
+    "ctaTitle": "Hablemos de tu cultivo",
+    "ctaButton": "Contactar"
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de tu cultivo",
+    "subtitle": "Contanos qué necesitás y te asesoramos sobre el bioinsumo, la dosis y el plan de aplicación.",
+    "formTitle": "Envianos un mensaje",
+    "name": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "email": "Email",
+    "emailPlaceholder": "tu@email.com",
+    "phone": "Teléfono",
+    "phonePlaceholder": "(+591) ...",
+    "message": "Mensaje",
+    "messagePlaceholder": "Contanos sobre tu cultivo y qué necesitás...",
+    "submit": "Enviar por WhatsApp",
+    "formNote": "Al enviar se abre WhatsApp con tu mensaje listo para confirmar.",
+    "required": "Completá este campo",
+    "infoTitle": "Datos de contacto",
+    "addressLabel": "Dirección",
+    "phoneLabel": "Teléfonos",
+    "emailLabel": "Email",
+    "whatsappLabel": "WhatsApp",
+    "hoursLabel": "Atención",
+    "hours": "Lun a Vie, 8:00–18:00",
+    "mapTitle": "Cómo llegar",
+    "emergencyLabel": "Intoxicaciones (Bolivia)",
+    "whatsappMessage": "Hola Green Science, quiero más información sobre sus bioinsumos."
+  },
+  "metadata": {
+    "home": {
+      "title": "Green Science — Bioinsumos agrícolas | Living Soil Biotechnology",
+      "description": "Bioinsumos de origen orgánico microbiano: biofertilizantes, bioestimulantes, bioinsecticidas y biofungicidas. 100% biológico, sin residuos. Montero, Santa Cruz, Bolivia."
+    },
+    "products": {
+      "title": "Productos",
+      "description": "Catálogo de bioinsumos Green Science: bioestimulantes, biofertilizantes, bioinsecticidas, biofungicidas, tratamiento de semillas y línea pecuaria."
+    },
+    "about": {
+      "title": "Nosotros",
+      "description": "Green Science: biotecnología de suelo vivo. Bioinsumos de origen orgánico microbiano desde Montero, Santa Cruz, Bolivia."
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "Contactá a Green Science en Montero, Santa Cruz, Bolivia. Teléfonos, WhatsApp y asesoramiento sobre bioinsumos."
+    }
+  }
+}
