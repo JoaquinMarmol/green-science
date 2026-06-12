@@ -6,6 +6,7 @@
   "nav": {
     "home": "Inicio",
     "products": "Productos",
+    "casos": "Casos de éxito",
     "about": "Nosotros",
     "contact": "Contacto",
     "openMenu": "Abrir menú",
@@ -19,6 +20,7 @@
     "whatsapp": "WhatsApp",
     "writeWhatsapp": "Escribir por WhatsApp",
     "backToProducts": "Volver a productos",
+    "readCase": "Ver el caso",
     "featured": "Destacado",
     "skipToContent": "Saltar al contenido",
     "language": "Idioma"
@@ -178,6 +180,30 @@
     "whatsappMessage": "Hola Green Science, quiero información sobre {product}.",
     "relatedTitle": "Otros productos"
   },
+  "casosPage": {
+    "eyebrow": "Resultados en campo",
+    "title": "Casos de éxito",
+    "subtitle": "Resultados reales de productores con la línea Green Science: soja, trigo, maíz, arroz, sorgo y ganadería. Lo que se ve en el lote, contado por quienes lo aplicaron."
+  },
+  "casoDetail": {
+    "back": "Volver a casos",
+    "situationTitle": "Situación inicial",
+    "treatmentTitle": "Tratamiento aplicado",
+    "resultTitle": "Resultado",
+    "galleryTitle": "Galería",
+    "quotesTitle": "Lo que dijeron en el campo",
+    "sectionPending": "Relato en preparación: este tramo proviene de los audios del productor y se completará al transcribirlos.",
+    "audioPending": "Parte del relato de este caso (inicio → cosecha) está en los audios del productor y se completará al transcribirlos. No publicamos datos sin confirmar.",
+    "cropLabel": "Cultivo",
+    "productLabel": "Producto",
+    "doseLabel": "Dosis",
+    "locationLabel": "Ubicación",
+    "usedProducts": "Producto usado",
+    "relatedTitle": "Más casos",
+    "viewAll": "Ver todos los casos",
+    "ctaButton": "Consultar por este caso",
+    "whatsappMessage": "Hola Green Science, vi el caso \"{caso}\" y quiero más información."
+  },
   "about": {
     "eyebrow": "Nosotros",
     "title": "Living Soil Biotechnology",
@@ -236,6 +262,10 @@
     "products": {
       "title": "Productos",
       "description": "Catálogo de bioinsumos Green Science: bioestimulantes, biofertilizantes, bioinsecticidas, biofungicidas, tratamiento de semillas y línea pecuaria."
+    },
+    "casos": {
+      "title": "Casos de éxito",
+      "description": "Resultados reales con bioinsumos Green Science en soja, trigo, maíz, arroz, sorgo y ganadería en Bolivia. Situación, tratamiento y resultado de cada caso."
     },
     "about": {
       "title": "Nosotros",

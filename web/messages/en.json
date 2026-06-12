@@ -6,6 +6,7 @@
   "nav": {
     "home": "Home",
     "products": "Products",
+    "casos": "Success stories",
     "about": "About",
     "contact": "Contact",
     "openMenu": "Open menu",
@@ -19,6 +20,7 @@
     "whatsapp": "WhatsApp",
     "writeWhatsapp": "Message on WhatsApp",
     "backToProducts": "Back to products",
+    "readCase": "View case",
     "featured": "Featured",
     "skipToContent": "Skip to content",
     "language": "Language"
@@ -178,6 +180,30 @@
     "whatsappMessage": "Hello Green Science, I’d like information about {product}.",
     "relatedTitle": "Other products"
   },
+  "casosPage": {
+    "eyebrow": "Field results",
+    "title": "Success stories",
+    "subtitle": "Real results from growers using the Green Science line: soybean, wheat, corn, rice, sorghum and livestock. What shows up in the field, told by those who applied it."
+  },
+  "casoDetail": {
+    "back": "Back to cases",
+    "situationTitle": "Initial situation",
+    "treatmentTitle": "Treatment applied",
+    "resultTitle": "Result",
+    "galleryTitle": "Gallery",
+    "quotesTitle": "What they said in the field",
+    "sectionPending": "Account in preparation: this part comes from the grower’s audio recordings and will be completed once transcribed.",
+    "audioPending": "Part of this case’s account (start → harvest) is in the grower’s audio recordings and will be completed once transcribed. We don’t publish unconfirmed data.",
+    "cropLabel": "Crop",
+    "productLabel": "Product",
+    "doseLabel": "Dose",
+    "locationLabel": "Location",
+    "usedProducts": "Product used",
+    "relatedTitle": "More cases",
+    "viewAll": "View all cases",
+    "ctaButton": "Ask about this case",
+    "whatsappMessage": "Hello Green Science, I saw the \"{caso}\" case and would like more information."
+  },
   "about": {
     "eyebrow": "About",
     "title": "Living Soil Biotechnology",
@@ -236,6 +262,10 @@
     "products": {
       "title": "Products",
       "description": "Green Science bio-input catalog: biostimulants, biofertilizers, bioinsecticides, biofungicides, seed treatment and livestock line."
+    },
+    "casos": {
+      "title": "Success stories",
+      "description": "Real results with Green Science bio-inputs in soybean, wheat, corn, rice, sorghum and livestock in Bolivia. Situation, treatment and result of each case."
     },
     "about": {
       "title": "About",
