@@ -12,6 +12,7 @@ import {
   Sparkles,
   Mic,
   Quote,
+  type LucideIcon,
 } from 'lucide-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
@@ -309,7 +310,7 @@ function FactRow({
   label,
   value,
 }: {
-  Icon: React.ComponentType<{ className?: string; 'aria-hidden'?: boolean }>;
+  Icon: LucideIcon;
   label: string;
   value: string;
 }) {
