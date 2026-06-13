@@ -138,6 +138,7 @@
   },
   "footer": {
     "tagline": "Microbial organic agricultural bio-inputs for living soils and sustainable farming.",
+    "parent": "A sub-line of Bioagrosolutions",
     "navTitle": "Navigation",
     "productsTitle": "Products",
     "contactTitle": "Contact",
@@ -207,7 +208,7 @@
   "about": {
     "eyebrow": "About",
     "title": "Living Soil Biotechnology",
-    "intro": "Green Science is a Bolivian company dedicated to the development, formulation and production of microbial organic agricultural bio-inputs. From Montero, Santa Cruz, we bring beneficial-microorganism technology to the field to build living soils and a more sustainable agriculture.",
+    "intro": "Green Science is the bio-input sub-line of Bioagrosolutions, a Bolivian company dedicated to the development, formulation and production of microbial organic agricultural bio-inputs. From Montero, Santa Cruz, we bring beneficial-microorganism technology to the field to build living soils and a more sustainable agriculture.",
     "missionTitle": "Our mission",
     "missionText": "To offer effective biological alternatives to chemical inputs, improving soil health and farmer profitability without leaving toxic residues.",
     "approachTitle": "Our approach",

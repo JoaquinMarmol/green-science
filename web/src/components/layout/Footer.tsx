@@ -26,7 +26,10 @@ export function Footer() {
           {/* Marca */}
           <div className="max-w-sm">
             <Logo variant="onDark" className="h-11" />
-            <p className="mt-5 text-sm leading-relaxed text-white/60">{t('tagline')}</p>
+            <p className="mt-4 text-xs font-semibold uppercase tracking-wider text-lime/90">
+              {t('parent')}
+            </p>
+            <p className="mt-4 text-sm leading-relaxed text-white/60">{t('tagline')}</p>
             <a
               href={whatsappLink()}
               target="_blank"

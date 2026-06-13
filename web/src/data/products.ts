@@ -66,7 +66,7 @@ export const products: Product[] = [
       en: 'Prepare the recommended dose in a clean container. Apply at the vegetative stage 15–20 days after sowing. Sequential applications at V3, V5 and R3.',
     },
     dose: { es: 'Secuencial 1 L/ha', en: 'Sequential 1 L/ha' },
-    price: 10.5,
+    price: 21,
   },
   {
     slug: 'full-green-100',
@@ -103,7 +103,7 @@ export const products: Product[] = [
       en: 'Prepare the recommended dose in a clean container. Apply at the vegetative stage after sowing at stages V3, V5, V7, R1 and R3.',
     },
     dose: { es: '0.5 – 1 L/ha', en: '0.5 – 1 L/ha' },
-    price: 12,
+    price: 24,
   },
   {
     slug: 'seed-forte-4-0',
@@ -141,7 +141,7 @@ export const products: Product[] = [
       en: 'Prepare the recommended dose in a clean container. Apply directly onto the seed before sowing. May also be used in co-inoculation, respecting doses and technical recommendations.',
     },
     dose: { es: '500 ml por cada 100 kg de semilla · 1 L/ha', en: '500 ml per 100 kg of seed · 1 L/ha' },
-    price: 39.5,
+    price: 43.45,
   },
   {
     slug: 'seed-forte-3-0',
@@ -176,7 +176,7 @@ export const products: Product[] = [
       en: 'Prepare the recommended dose in a clean container. Apply directly onto the seed before sowing. May also be used in co-inoculation, respecting doses and technical recommendations.',
     },
     dose: { es: '500 ml por cada 100 kg de semilla · 1 L/ha', en: '500 ml per 100 kg of seed · 1 L/ha' },
-    price: 39.5,
+    price: 43.45,
   },
   {
     slug: 'biomax-43',
@@ -211,7 +211,7 @@ export const products: Product[] = [
       en: 'Prepare the recommended dose in a clean container. Apply at the vegetative stage 30 days after sowing. Sequential applications recommended at V3, V5, V7, R1 and R3.',
     },
     dose: { es: 'Secuencial 1 L/ha', en: 'Sequential 1 L/ha' },
-    price: 14,
+    price: 28,
   },
   {
     slug: 'bioguard',
@@ -243,7 +243,7 @@ export const products: Product[] = [
       en: 'Prepare the recommended dose in a clean container. Apply at the vegetative stage 25 days after sowing. Apply at V3, V5, V7, R1 and R3.',
     },
     dose: { es: 'Secuencial 1 L/ha', en: 'Sequential 1 L/ha' },
-    price: 15.5,
+    price: 31,
   },
   {
     slug: 'bio-mulusk',
@@ -275,7 +275,7 @@ export const products: Product[] = [
       en: 'Prepare the recommended dose in a clean container. Apply at the vegetative stage 30 days after sowing. Best applied under good relative humidity and on cloudy days. Apply at V3, V5, V7, R1 and R3.',
     },
     dose: { es: '3 litros secuencial', en: '3 liters sequential' },
-    price: 14,
+    price: 28,
   },
   {
     slug: 'biodyne-500',
@@ -306,7 +306,7 @@ export const products: Product[] = [
       en: 'Prepare the recommended dose in a clean container. For animal-consumption applications, consult a specialized technician first. Feeders: 2–3 L of activated product per 20 L tank. Drinkers: 1 L of activated product per 1000 L of water. Facilities: 5 L of activated product per 20 L tank.',
     },
     dose: { es: 'Según aplicación (ver uso)', en: 'According to application (see usage)' },
-    price: 7,
+    price: 14,
   },
 ];
 

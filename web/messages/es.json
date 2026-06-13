@@ -138,6 +138,7 @@
   },
   "footer": {
     "tagline": "Bioinsumos agrícolas de origen orgánico microbiano para suelos vivos y agricultura sostenible.",
+    "parent": "Una sublínea de Bioagrosolutions",
     "navTitle": "Navegación",
     "productsTitle": "Productos",
     "contactTitle": "Contacto",
@@ -207,7 +208,7 @@
   "about": {
     "eyebrow": "Nosotros",
     "title": "Living Soil Biotechnology",
-    "intro": "Green Science es una empresa boliviana dedicada al desarrollo, formulación y producción de bioinsumos agrícolas de origen orgánico microbiano. Desde Montero, Santa Cruz, llevamos tecnología de microorganismos benéficos al campo para construir suelos vivos y una agricultura más sostenible.",
+    "intro": "Green Science es la sublínea de bioinsumos de Bioagrosolutions, empresa boliviana dedicada al desarrollo, formulación y producción de bioinsumos agrícolas de origen orgánico microbiano. Desde Montero, Santa Cruz, llevamos tecnología de microorganismos benéficos al campo para construir suelos vivos y una agricultura más sostenible.",
     "missionTitle": "Nuestra misión",
     "missionText": "Ofrecer alternativas biológicas eficaces a los insumos químicos, mejorando la salud del suelo y la rentabilidad del agricultor sin dejar residuos tóxicos.",
     "approachTitle": "Nuestro enfoque",
