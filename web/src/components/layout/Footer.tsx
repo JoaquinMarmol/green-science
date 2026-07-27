@@ -1,7 +1,7 @@
 import { MapPin, Phone, Mail, MessageCircle, AlertTriangle } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { Logo } from './Logo';
+import { Brand } from './Brand';
 import { Container } from '@/components/ui/Container';
 import { products } from '@/data/products';
 import { siteConfig, whatsappLink } from '@/lib/site';
@@ -25,9 +25,9 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1.4fr]">
           {/* Marca */}
           <div className="max-w-sm">
-            <Logo variant="onDark" className="h-11" />
+            <Brand variant="onDark" className="h-10" />
             <p className="mt-4 text-xs font-semibold uppercase tracking-wider text-lime/90">
-              {t('parent')}
+              Línea Green Science · {t('parent')}
             </p>
             <p className="mt-4 text-sm leading-relaxed text-white/60">{t('tagline')}</p>
             <a

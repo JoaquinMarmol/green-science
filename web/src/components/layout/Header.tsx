@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 import { whatsappLink } from '@/lib/site';
 import { cn } from '@/lib/cn';
-import { Logo } from './Logo';
+import { Brand } from './Brand';
 import { LanguageSwitcher } from './LanguageSwitcher';
 
 const NAV = [
@@ -64,10 +64,10 @@ export function Header() {
         )}
       >
         <div className="container-px flex h-16 items-center justify-between gap-4 lg:h-[72px]">
-          <Logo
+          <Brand
             variant={transparent ? 'onDark' : 'color'}
             priority
-            className="h-10 sm:h-12"
+            className="h-8 sm:h-11"
           />
 
           {/* Navegación desktop */}
@@ -142,7 +142,7 @@ export function Header() {
         aria-hidden={!open}
       >
         <div className="container-px flex h-16 items-center justify-between">
-          <Logo variant="color" className="h-10" />
+          <Brand variant="color" className="h-8" />
           <button
             type="button"
             onClick={() => setOpen(false)}
