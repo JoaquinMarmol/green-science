@@ -5,14 +5,14 @@ import { Section } from '@/components/ui/Section';
 import { SectionHeading } from '@/components/ui/SectionHeading';
 import { FadeIn } from '@/components/motion/FadeIn';
 import { ProductCard } from '@/components/products/ProductCard';
-import { getFeaturedProducts } from '@/data/products';
+import { products } from '@/data/products';
 
 export function FeaturedProducts() {
   const t = useTranslations('featured');
   const tCat = useTranslations('categories.items');
   const tCommon = useTranslations('common');
   const locale = useLocale();
-  const featured = getFeaturedProducts();
+  const featured = products;
 
   return (
     <Section className="bg-white">
@@ -33,9 +33,9 @@ export function FeaturedProducts() {
         </Link>
       </div>
 
-      <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {featured.map((product, i) => (
-          <FadeIn key={product.slug} delay={(i % 3) * 0.08}>
+          <FadeIn key={product.slug} delay={(i % 4) * 0.07}>
             <ProductCard
               product={product}
               locale={locale}

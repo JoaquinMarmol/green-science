@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { formatPricePerLiter } from '@/lib/price';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import {
@@ -155,7 +156,7 @@ export default function ProductDetailPage({
               {product.price !== undefined ? (
                 <FactRow
                   label={t('price')}
-                  value={`$us ${product.price % 1 === 0 ? product.price : product.price.toString().replace('.', ',')} / L`}
+                  value={formatPricePerLiter(product.price)}
                   highlight
                 />
               ) : null}

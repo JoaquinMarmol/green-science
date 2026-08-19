@@ -63,7 +63,7 @@ export function Footer() {
               {t('productsTitle')}
             </h3>
             <ul className="mt-4 space-y-3 text-sm">
-              {products.slice(0, 6).map((p) => (
+              {products.map((p) => (
                 <li key={p.slug}>
                   <Link
                     href={`/productos/${p.slug}`}

@@ -3,6 +3,7 @@ import { ArrowRight, Star } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import type { Product } from '@/data/products';
 import { productImage } from '@/data/products';
+import { formatPrice } from '@/lib/price';
 import { pick } from '@/lib/loc';
 import { Badge } from '@/components/ui/Badge';
 
@@ -56,10 +57,8 @@ export function ProductCard({
         </p>
         {product.price !== undefined ? (
           <p className="mt-3 text-base font-bold text-forest-deep">
-            {product.price % 1 === 0
-              ? `$us ${product.price}`
-              : `$us ${product.price.toString().replace('.', ',')}`}
-            <span className="ml-0.5 text-xs font-medium text-mute">/L</span>
+            {formatPrice(product.price)}
+            <span className="ml-1 text-xs font-medium text-mute">/L</span>
           </p>
         ) : null}
         <span className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-forest-deep transition-colors group-hover:text-forest">

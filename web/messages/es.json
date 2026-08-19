@@ -6,6 +6,7 @@
   "nav": {
     "home": "Inicio",
     "products": "Productos",
+    "crops": "Cultivos",
     "casos": "Casos de éxito",
     "about": "Nosotros",
     "contact": "Contacto",
@@ -26,15 +27,15 @@
     "language": "Idioma"
   },
   "hero": {
-    "eyebrow": "Bioinsumos de origen orgánico microbiano",
-    "titleLead": "Biotecnología viva para",
-    "titleHighlight": "suelos sanos",
-    "titleTail": "y agricultura sostenible",
-    "subtitle": "Microorganismos benéficos que nutren el suelo, estimulan tus cultivos y controlan plagas y enfermedades. 100% biológico, sin residuos y apto para exportación.",
-    "ctaPrimary": "Ver productos",
-    "ctaSecondary": "Contactar",
-    "stat1Value": "100%",
-    "stat1Label": "Biológico",
+    "eyebrow": "Diagnóstico de suelo · Fórmula dirigida · Resultado documentado",
+    "titleLead": "Microorganismos para",
+    "titleHighlight": "tu cosecha",
+    "titleTail": "y un suelo que mejora cada campaña",
+    "subtitle": "No vendemos bidones sueltos. Diagnosticamos tu lote, armamos el plan de manejo por cultivo y te acompañamos toda la campaña. 100% biológico, sin residuos ni carencia.",
+    "ctaPrimary": "Ver planes por cultivo",
+    "ctaSecondary": "Pedir diagnóstico",
+    "stat1Value": "22",
+    "stat1Label": "Cultivos con plan",
     "stat2Value": "8",
     "stat2Label": "Bioinsumos",
     "stat3Value": "0",
@@ -95,10 +96,10 @@
     }
   },
   "featured": {
-    "eyebrow": "Productos destacados",
-    "title": "Nuestros bioinsumos clave",
-    "subtitle": "Los favoritos del agricultor, listos para tu próxima campaña.",
-    "viewAll": "Ver todos los productos"
+    "eyebrow": "Nuestros productos",
+    "title": "La línea completa Green Science",
+    "subtitle": "Ocho bioinsumos para nutrir el suelo, tratar la semilla y controlar plagas y enfermedades.",
+    "viewAll": "Ver fichas técnicas"
   },
   "why": {
     "eyebrow": "Living Soil Biotechnology",
@@ -123,11 +124,6 @@
       }
     },
     "cta": "Conocé Green Science"
-  },
-  "crops": {
-    "eyebrow": "Cultivos",
-    "title": "Pensados para tu cultivo",
-    "subtitle": "Soluciones probadas en los principales cultivos de Bolivia y la región."
   },
   "cta": {
     "title": "¿Listo para un suelo más vivo?",
@@ -276,5 +272,17 @@
       "title": "Contacto",
       "description": "Contactá a Green Science en Montero, Santa Cruz, Bolivia. Teléfonos, WhatsApp y asesoramiento sobre bioinsumos."
     }
+  },
+  "process": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "El insumo es la última decisión, no la primera",
+    "subtitle": "Un plan de manejo no arranca eligiendo productos: arranca entendiendo qué limita el rendimiento de ese lote.",
+    "s1t": "Diagnóstico del lote",
+    "s1d": "Visitamos el campo, evaluamos suelo, cultivo y manejo. Con análisis de suelo cuando es posible.",
+    "s2t": "Plan por cultivo",
+    "s2d": "Armamos el calendario etapa por etapa: qué aplicar, en qué dosis y para qué, con el costo por hectárea.",
+    "s3t": "Acompañamiento",
+    "s3d": "Estamos en la primera aplicación y volvemos durante la campaña para ajustar y registrar resultados.",
+    "note": "El diagnóstico y el acompañamiento técnico están incluidos, sin costo adicional."
   }
 }

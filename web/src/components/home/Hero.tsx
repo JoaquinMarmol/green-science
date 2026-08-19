@@ -15,79 +15,104 @@ export function Hero() {
   ];
 
   return (
-    <section className="relative overflow-hidden bg-hero">
-      {/* Glows decorativos de marca */}
-      <div
-        className="pointer-events-none absolute -left-24 top-10 h-80 w-80 rounded-full bg-lime/20 blur-[100px]"
-        aria-hidden
-      />
-      <div
-        className="pointer-events-none absolute -right-24 bottom-0 h-96 w-96 rounded-full bg-forest/25 blur-[120px]"
-        aria-hidden
-      />
-
-      {/* Símbolo de marca como motivo ambiente (solo desktop) */}
-      <div
-        className="pointer-events-none absolute inset-y-0 right-0 hidden w-1/2 items-center justify-center lg:flex"
-        aria-hidden
-      >
-        <div className="relative">
-          <div className="absolute left-1/2 top-1/2 h-[30rem] w-[30rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-lime/12 blur-[120px]" />
-          <Image
-            src="/logo-symbol-on-dark.png"
-            alt=""
-            width={466}
-            height={691}
-            priority
-            className="relative h-[26rem] w-auto animate-float opacity-70 drop-shadow-[0_24px_70px_rgba(122,201,67,0.2)] xl:h-[31rem]"
-          />
-        </div>
+    <section className="relative overflow-hidden bg-night">
+      {/* fondo mobile/tablet: la foto vertical detrás de todo el hero */}
+      <div className="absolute inset-0 lg:hidden" aria-hidden>
+        <Image
+          src="/hero/bidones-vertical.jpg"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-bottom"
+        />
+        {/* velo general + mucha opacidad arriba, para que el texto respire */}
+        <div className="absolute inset-0 bg-night/30" />
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage:
+              'linear-gradient(to bottom, #0B0F0C 0%, rgba(11,15,12,0.95) 26%, rgba(11,15,12,0.82) 44%, rgba(11,15,12,0.55) 62%, rgba(11,15,12,0.55) 88%, rgba(11,15,12,0.9) 100%)',
+          }}
+        />
       </div>
 
-      <Container className="relative pb-20 pt-28 sm:pt-32 lg:pb-28 lg:pt-36">
-        <div className="relative z-10 max-w-2xl">
-          <h1
-            className="animate-fade-up font-display text-[2.5rem] font-extrabold leading-[1.08] text-white text-balance sm:text-5xl lg:text-6xl"
+      {/* foto de la línea completa como fondo (desktop) */}
+      <div className="absolute inset-0 hidden lg:block" aria-hidden>
+        <Image
+          src="/hero/bidones-horizontal.jpg"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-right"
+        />
+        {/* velo general: baja el brillo de toda la foto */}
+        <div className="absolute inset-0 bg-night/35" />
+        {/* fusión con la marca: oscurece la izquierda para el texto y sella los bordes */}
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage:
+              'linear-gradient(to right, #0B0F0C 0%, rgba(11,15,12,0.95) 34%, rgba(11,15,12,0.62) 56%, rgba(11,15,12,0.25) 78%, rgba(11,15,12,0.12) 100%)',
+          }}
+        />
+        <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-night/90 to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-night/90 to-transparent" />
+      </div>
+
+      {/* línea de horizonte al pie */}
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 z-10 h-px bg-gradient-to-r from-transparent via-lime/25 to-transparent" aria-hidden />
+
+      <Container className="relative z-10 flex min-h-[86vh] flex-col justify-center pb-20 pt-28 sm:pt-32 lg:min-h-0 lg:block lg:pb-24 lg:pt-36">
+        <div className="max-w-xl">
+          <p
+            className="animate-fade-up mb-6 inline-flex items-center gap-2.5 text-[11px] font-semibold uppercase tracking-[0.18em] text-lime/90 sm:text-xs"
             style={{ animationDelay: '0ms' }}
           >
-            {t('titleLead')}{' '}
-            <span className="bg-gradient-to-r from-lime to-[#c7ef9a] bg-clip-text text-transparent">
-              {t('titleHighlight')}
-            </span>{' '}
+            <span className="h-px w-8 bg-lime/60" aria-hidden />
+            {t('eyebrow')}
+          </p>
+
+          <h1
+            className="animate-fade-up font-display text-[2.4rem] font-extrabold leading-[1.06] text-white text-balance sm:text-5xl lg:text-[3.3rem]"
+            style={{ animationDelay: '80ms' }}
+          >
+            {t('titleLead')} <span className="text-lime">{t('titleHighlight')}</span>{' '}
             {t('titleTail')}
           </h1>
 
           <p
-            className="animate-fade-up mt-5 max-w-lg text-base leading-relaxed text-white/70 text-pretty sm:text-lg"
-            style={{ animationDelay: '80ms' }}
+            className="animate-fade-up mt-6 max-w-lg text-base leading-relaxed text-white/70 text-pretty sm:text-lg"
+            style={{ animationDelay: '160ms' }}
           >
             {t('subtitle')}
           </p>
 
           <div
-            className="animate-fade-up mt-8 flex flex-col gap-3 sm:flex-row"
-            style={{ animationDelay: '160ms' }}
+            className="animate-fade-up mt-9 flex flex-col gap-3 sm:flex-row"
+            style={{ animationDelay: '240ms' }}
           >
             <Link
-              href="/productos"
-              className="inline-flex h-[3.25rem] items-center justify-center gap-2 rounded-full bg-white px-7 text-base font-semibold text-forest-deep shadow-soft transition-all hover:bg-cream hover:shadow-glow active:scale-[0.98]"
+              href="/cultivos"
+              className="group inline-flex h-[3.25rem] items-center justify-center gap-2 rounded-full bg-lime px-7 text-base font-semibold text-forest-deep transition-all hover:bg-lime-400 active:scale-[0.98]"
             >
               {t('ctaPrimary')}
-              <ArrowRight className="h-4 w-4" aria-hidden />
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" aria-hidden />
             </Link>
             <Link
               href="/contacto"
-              className="inline-flex h-[3.25rem] items-center justify-center gap-2 rounded-full px-7 text-base font-semibold text-white ring-1 ring-white/25 transition-all hover:bg-white/10 active:scale-[0.98]"
+              className="inline-flex h-[3.25rem] items-center justify-center gap-2 rounded-full px-7 text-base font-semibold text-white ring-1 ring-white/25 backdrop-blur-sm transition-all hover:bg-white/10 hover:ring-white/40 active:scale-[0.98]"
             >
               <MessageCircle className="h-4 w-4" aria-hidden />
               {t('ctaSecondary')}
             </Link>
           </div>
 
-          {/* Stats */}
+          {/* stats */}
           <dl
-            className="animate-fade-up mt-10 grid max-w-md grid-cols-3 gap-4 border-t border-white/10 pt-7"
-            style={{ animationDelay: '240ms' }}
+            className="animate-fade-up mt-12 grid max-w-md grid-cols-3 gap-4 border-t border-white/10 pt-7"
+            style={{ animationDelay: '320ms' }}
           >
             {stats.map((s, i) => (
               <div key={s.label} className={cn(i > 0 && 'border-l border-white/10 pl-4')}>

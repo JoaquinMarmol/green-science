@@ -6,6 +6,7 @@
   "nav": {
     "home": "Home",
     "products": "Products",
+    "crops": "Crops",
     "casos": "Success stories",
     "about": "About",
     "contact": "Contact",
@@ -26,15 +27,15 @@
     "language": "Language"
   },
   "hero": {
-    "eyebrow": "Microbial organic biological inputs",
-    "titleLead": "Living biotechnology for",
-    "titleHighlight": "healthy soils",
-    "titleTail": "and sustainable farming",
-    "subtitle": "Beneficial microorganisms that feed the soil, stimulate your crops and control pests and diseases. 100% biological, residue-free and export-ready.",
-    "ctaPrimary": "View products",
-    "ctaSecondary": "Contact",
-    "stat1Value": "100%",
-    "stat1Label": "Biological",
+    "eyebrow": "Soil diagnosis · Targeted formula · Documented results",
+    "titleLead": "Microorganisms for",
+    "titleHighlight": "your harvest",
+    "titleTail": "and soil that improves every season",
+    "subtitle": "We don't just sell drums. We diagnose your field, build the crop management plan and support you all season long. 100% biological, no residues, no waiting period.",
+    "ctaPrimary": "See crop plans",
+    "ctaSecondary": "Request diagnosis",
+    "stat1Value": "22",
+    "stat1Label": "Crops with a plan",
     "stat2Value": "8",
     "stat2Label": "Bio-inputs",
     "stat3Value": "0",
@@ -95,10 +96,10 @@
     }
   },
   "featured": {
-    "eyebrow": "Featured products",
-    "title": "Our key bio-inputs",
-    "subtitle": "Grower favorites, ready for your next season.",
-    "viewAll": "View all products"
+    "eyebrow": "Our products",
+    "title": "The complete Green Science line",
+    "subtitle": "Eight bio-inputs to feed the soil, treat the seed and control pests and diseases.",
+    "viewAll": "See technical sheets"
   },
   "why": {
     "eyebrow": "Living Soil Biotechnology",
@@ -123,11 +124,6 @@
       }
     },
     "cta": "Learn about Green Science"
-  },
-  "crops": {
-    "eyebrow": "Crops",
-    "title": "Designed for your crop",
-    "subtitle": "Solutions proven in the main crops of Bolivia and the region."
   },
   "cta": {
     "title": "Ready for a more living soil?",
@@ -276,5 +272,17 @@
       "title": "Contact",
       "description": "Contact Green Science in Montero, Santa Cruz, Bolivia. Phones, WhatsApp and advice on bio-inputs."
     }
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "The input is the last decision, not the first",
+    "subtitle": "A management plan doesn't start by picking products: it starts by understanding what limits that field's yield.",
+    "s1t": "Field diagnosis",
+    "s1d": "We visit the farm and assess soil, crop and current management, with soil analysis whenever possible.",
+    "s2t": "Crop-specific plan",
+    "s2d": "We build the calendar stage by stage: what to apply, at what rate and why, with the cost per hectare.",
+    "s3t": "Season-long support",
+    "s3d": "We join the first application and come back through the season to adjust and record results.",
+    "note": "Diagnosis and technical support are included at no extra cost."
   }
 }
